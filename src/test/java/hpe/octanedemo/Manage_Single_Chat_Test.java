@@ -17,14 +17,14 @@ public class Manage_Single_Chat_Test{
 	//int totalNumber = 20;
 	 
 	@Test
-	public void Manage_Single_Chat_Positive_Test() {
+	public void Headphones_Positive_Test() {
 		System.out.println("The Number is " + randomNumber);
 		Manage_Single_Chat.dummycode(randomNumber);
 		Manage_Single_Chat.fibonacciRecusion(randomNumber);
 	}
 	 
 	@Test
-	public void Manage_Single_Chat_Negative_Test() {
+	public void Headphones_Chat_Negative_Test() {
 		Manage_Single_Chat.fibonacciLoop(randomNumber);
 		
 	}

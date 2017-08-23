@@ -19,14 +19,14 @@ public class Search_In_Messages_Test   {
 	//int totalNumber = 20;
 	 
 	@Test
-	public void Search_In_Messages_Positive_Test() {
+	public void Shopping_Cart_Positive_Test() {
 		System.out.println("The Number is " + randomNumber);
 		Search_In_Messages.dummycode(randomNumber);
 		Search_In_Messages.fibonacciRecusion(randomNumber);
 	}
  
 	@Test
-	public void Search_In_Messages_Negative_Test() {
+	public void Shopping_Cart_Negative_Test() {
 		Search_In_Messages.fibonacciLoop(randomNumber);
 	}
  

@@ -19,14 +19,14 @@ public class Manage_Notifications_Test   {
 	//int totalNumber = 20;
 	 
 	@Test
-	public void Manage_Notifications_Positive_Test() {
+	public void Mice_Positive_Test() {
 		System.out.println("The Number is " + randomNumber);
 		Manage_Notifications.dummycode(randomNumber);
 		Manage_Notifications.fibonacciRecusion(randomNumber);
 	}
  
 	@Test
-	public void Manage_Notifications_Negative_Test() {
+	public void Mice_Negative_Test() {
 		Manage_Notifications.fibonacciLoop(randomNumber);
 	}
  

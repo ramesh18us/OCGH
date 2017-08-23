@@ -19,14 +19,14 @@ public class Send_Message_Test   {
 	//int totalNumber = 20;
 	 
 	@Test
-	public void Send_Message_Positive_Test() {
+	public void Purchase_Positive_Test() {
 		System.out.println("The Number is " + randomNumber);
 		Send_Message.dummycode(randomNumber);
 		Send_Message.fibonacciRecusion(randomNumber);
 	}
  
 	@Test
-	public void Send_Message_Negative_Test() {
+	public void Purchase_Negative_Test() {
 		Send_Message.fibonacciLoop(randomNumber);
 	}
  

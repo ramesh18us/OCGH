@@ -19,7 +19,7 @@ public class General_Test{
 	//int totalNumber = 20;
 	 
 	@Test
-	public void General_Positive_Test() {
+	public void Tablets_Test() {
 		System.out.println("The Number is " + randomNumber);
 		General.dummycode(randomNumber);
 		General.fibonacciRecusion(randomNumber);
@@ -27,7 +27,7 @@ public class General_Test{
  
 	
 	@Test
-	public void General_Negative_Test() {
+	public void Tablets_Negative_Test() {
 		
 		General.fibonacciLoop(randomNumber);
 

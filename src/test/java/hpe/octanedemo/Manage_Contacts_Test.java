@@ -19,14 +19,14 @@ public class Manage_Contacts_Test   {
 	//int totalNumber = 20;
 	 
 	@Test
-	public void Manage_Contacts_Positive_Test() {
+	public void Laptops_Positive_Test() {
 		System.out.println("The Number is " + randomNumber);
 		Manage_Contacts.dummycode(randomNumber);
 		Manage_Contacts.fibonacciRecusion(randomNumber);
 	}
  
 	@Test
-	public void Manage_Contacts_Negative_Test() {
+	public void Laptops_Contacts_Negative_Test() {
 		
 		Manage_Contacts.fibonacciLoop(randomNumber);	
 		

@@ -19,14 +19,14 @@ public class Search_Contacts_Test   {
 	 
 	
 	@Test
-	public void Search_Contacts_Positive_Test() {
+	public void Promotions_Positive_Test() {
 		System.out.println("The Number is " + randomNumber);
 		Search_Contacts.dummycode(randomNumber);
 		Search_Contacts.fibonacciRecusion(randomNumber);
 	}
  
 	@Test
-	public void Search_Contacts_Negative_Test() {
+	public void Promotions_Negative_Test() {
 		
 		Search_Contacts.fibonacciLoop(randomNumber);
 	}

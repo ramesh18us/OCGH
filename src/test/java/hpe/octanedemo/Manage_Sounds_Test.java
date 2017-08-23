@@ -21,14 +21,14 @@ public class Manage_Sounds_Test   {
 	//int totalNumber = 20;
 	 
 	@Test
-	public void Manage_Sounds_Positive_Test() {
+	public void Registration_Positive_Test() {
 		System.out.println("The Number is " + randomNumber);
 		Manage_Sounds.dummycode(randomNumber);
 		Manage_Sounds.fibonacciRecusion(randomNumber);
 		}
  
 	@Test
-	public void Manage_Sounds_Negative_Test() {
+	public void Registration_Negative_Test() {
 		Manage_Sounds.fibonacciLoop(randomNumber);
 	}
  	

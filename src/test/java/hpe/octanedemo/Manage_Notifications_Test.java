@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.Random;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import hpe.octanedemo.Manage_Notifications;
@@ -16,7 +17,7 @@ public class Manage_Notifications_Test   {
 	int randomNumber = ran.nextInt(range) + 11;
 	
 
-	
+
 	//int totalNumber = 20;
 	 
 	@Test
@@ -24,6 +25,7 @@ public class Manage_Notifications_Test   {
 		System.out.println("The Number is " + randomNumber);
 		Manage_Notifications.dummycode(randomNumber);
 		Manage_Notifications.fibonacciRecusion(randomNumber);
+		Assert.fail();
 	}
  
 	@Test

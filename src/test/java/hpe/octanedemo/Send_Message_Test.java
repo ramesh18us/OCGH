@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.Random;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import hpe.octanedemo.Send_Message;
@@ -23,6 +24,7 @@ public class Send_Message_Test   {
 		System.out.println("The Number is " + randomNumber);
 		Send_Message.dummycode(randomNumber);
 		Send_Message.fibonacciRecusion(randomNumber);
+		Assert.fail();
 	}
  
 	@Test

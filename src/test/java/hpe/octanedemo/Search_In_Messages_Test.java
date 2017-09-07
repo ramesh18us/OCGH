@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.Random;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import hpe.octanedemo.Search_In_Messages;
@@ -28,6 +29,7 @@ public class Search_In_Messages_Test   {
 	@Test
 	public void Shopping_Cart_Negative_Test() {
 		Search_In_Messages.fibonacciLoop(randomNumber);
+		Assert.fail();
 	}
  
 }

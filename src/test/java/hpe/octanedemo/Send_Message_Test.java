@@ -24,7 +24,7 @@ public class Send_Message_Test   {
 		System.out.println("The Number is " + randomNumber);
 		Send_Message.dummycode(randomNumber);
 		Send_Message.fibonacciRecusion(randomNumber);
-	//	Assert.fail();
+		Assert.fail();
 	}
  
 	@Test

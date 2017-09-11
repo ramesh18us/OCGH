@@ -29,7 +29,7 @@ public class Search_In_Messages_Test   {
 	@Test
 	public void Shopping_Cart_Negative_Test() {
 		Search_In_Messages.fibonacciLoop(randomNumber);
-		//Assert.fail();
+		Assert.fail();
 	}
  
 }

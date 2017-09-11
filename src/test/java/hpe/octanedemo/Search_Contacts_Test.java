@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.Random;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import hpe.octanedemo.Search_Contacts;
@@ -23,6 +24,7 @@ public class Search_Contacts_Test   {
 		System.out.println("The Number is " + randomNumber);
 		Search_Contacts.dummycode(randomNumber);
 		Search_Contacts.fibonacciRecusion(randomNumber);
+		Assert.fail();
 	}
  
 	@Test

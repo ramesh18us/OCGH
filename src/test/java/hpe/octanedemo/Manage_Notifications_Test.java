@@ -25,7 +25,7 @@ public class Manage_Notifications_Test   {
 		System.out.println("The Number is " + randomNumber);
 		Manage_Notifications.dummycode(randomNumber);
 		Manage_Notifications.fibonacciRecusion(randomNumber);
-		//Assert.fail();
+		Assert.fail();
 	}
  
 	@Test

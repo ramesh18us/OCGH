@@ -10,15 +10,13 @@
  <url>http://maven.apache.org</url>
 
   <properties>
+	  <test.src.dir>src/test/java</test.src.dir>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.language>java</sonar.language>
   </properties>
 	
-	    
-    <properties>
-        <test.src.dir>src/test/java</test.src.dir>
-    </properties>
+
 
 
   <dependencies>
